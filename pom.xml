@@ -12,23 +12,5 @@
         <module>message-provider</module>
     </modules>
 
-    <properties>
-        <java.version>1.7</java.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <spring-boot.version>1.5.9.RELEASE</spring-boot.version>
-        <dubbo.version>2.5.10</dubbo.version>
-        <zkclient.version>0.2</zkclient.version>
-        <zookeeper.version>3.4.9</zookeeper.version>
-    </properties>
-
-
-    <parent>
-        <groupId>com.alibaba.boot</groupId>
-        <artifactId>dubbo-spring-boot-parent</artifactId>
-        <version>0.1.0</version>
-    </parent>
-
-
 
 </project>
