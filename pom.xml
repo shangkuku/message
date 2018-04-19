@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.mujinnong</groupId>
+    <artifactId>message</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <modules>
+        <module>message-api</module>
+        <module>message-provider</module>
+    </modules>
+
+    <properties>
+        <java.version>1.7</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <spring-boot.version>1.5.9.RELEASE</spring-boot.version>
+        <dubbo.version>2.5.10</dubbo.version>
+        <zkclient.version>0.2</zkclient.version>
+        <zookeeper.version>3.4.9</zookeeper.version>
+    </properties>
+
+
+    <parent>
+        <groupId>com.alibaba.boot</groupId>
+        <artifactId>dubbo-spring-boot-parent</artifactId>
+        <version>0.1.0</version>
+    </parent>
+
+
+
+</project>
