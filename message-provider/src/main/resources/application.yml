@@ -8,6 +8,7 @@ spring.datasource:
       druid.max-active: 20
       druid.min-idle: 1
 
+
 #dubbo
 dubbo:
   application:
@@ -25,13 +26,20 @@ dubbo:
     address: zookeeper://127.0.0.1:2181
   scan:
     base-packages: com.alibaba.boot.dubbo.demo.provider.service
-
 management:
   health:
     dubbo:
       status:
         defaults: memory
         extras: load,threadpool
+
+
+spring:
+  redis:
+    host: localhost
+    password: test
+    database: 0
+
 
 
 
